@@ -1,0 +1,23 @@
+/*
+[0]GENERAL
+[1]SEARCH AREA
+[2]RESULTS AREA
+[3]MEDIA QUERIES
+*/
+
+/*[0]GENERAL*/
+body{
+	background-color: gray;
+	padding: 1%;
+	padding-top: 5%;
+}
+h3{
+	text-align: center;
+}
+a{
+	color:#000;
+}
+a:hover{
+	color:#000;
+	text-decoration: underline;
+}
