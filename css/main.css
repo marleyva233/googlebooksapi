@@ -10,12 +10,18 @@ body{
 	font-family: 'Questrial', sans-serif;
 	color:#fff;
 	background-image:url("https://southsidetyler.us/wp-content/uploads/2015/04/old-books.jpg");
-	background-position: top;
-	background-size: 100vw;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 	background-repeat: repeat-y;
-	background-color: gray;
-	padding: 1%;
-	padding-top: 5%;
+	padding: 0;
+}
+.bg{
+	height: 100vw;
+	background-color: rgba(255, 255, 255, .7);
+}
+#intro{
+	height: 100%;
 }
 h3, h4, h6{
 	font-family: 'Corben', cursive;

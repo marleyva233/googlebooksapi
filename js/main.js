@@ -46,5 +46,4 @@ function searchBooks(){
 			}
 		}
 	});
-	document.getElementById("searchInput").value="";
 }
