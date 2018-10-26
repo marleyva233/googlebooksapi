@@ -16,17 +16,13 @@ body{
 	background-repeat: repeat-y;
 	padding: 0;
 }
-.bg{
-	height: 100vw;
-	background-color: rgba(255, 255, 255, .7);
-}
-#intro{
-	height: 100%;
-}
 h3, h4, h6{
 	font-family: 'Corben', cursive;
 	color:#000;
 	text-align: center;
+}
+.bg{
+	background-color: rgba(255, 255, 255, 0.7);
 }
 h3{
 	font-weight: bold;

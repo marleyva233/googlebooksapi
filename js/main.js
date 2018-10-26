@@ -14,15 +14,17 @@ function searchBooks(){
 			for(var i=0; i<30; i++){
 				//storing the generated data
 				var displayDetails=document.createElement("div");
-					displayDetails.classList.add("text-center", "mx-auto", "col-lg-4", "col-sm-10", "bg-light", "p-3");
+					displayDetails.classList.add("text-center", "mx-auto", "col-lg-4", "col-sm-10", "bg", "p-3");
 				var bookData=data.items[i].volumeInfo;
 				var bookImage=document.createElement("img");
+					bookImage.classList.add("animated", "fadeIn");
 				if (bookData.imageLinks.thumbnail){
 					bookImage.src=bookData.imageLinks.thumbnail;
 				}else{
 					bookImage.src="http://codifyacademy.com/litmos/wk14/googlebooks/img/nobook.jpg";
 				}
 				var bookTitle=document.createElement("h4");
+					bookTitle.classList.add("animated", "slideInUp");
 				if(bookData.title){
 					bookTitle.innerText=bookData.title;
 				}else{
@@ -46,4 +48,7 @@ function searchBooks(){
 			}
 		}
 	});
+	document.getElementById("searchInput").value="";
+	document.getElementById("introSearch").classList.remove("bg");
+	document.getElementById("introSearch").classList.add("fadeIn", "animated");
 }

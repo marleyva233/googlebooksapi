@@ -9,23 +9,25 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<!-- bootstrap CDN -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<!-- animate css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 		<!-- my custom css -->
 		<link rel="stylesheet" href="css/main.css">
 		<!-- custom fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Corben|Questrial" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container-fluid bg pt-3" id="intro">
+		<div class="container-fluid pt-3" id="intro">
 			<!-- start search area -->
 			<div class="row">
-				<div class="col-10 mx-auto text-center pb-3">
-					<h3>Search Free E-Books</h3>
+				<div class="col-10 mx-auto text-center pb-3 bg" id="introSearch">
+					<h3 class="animated zoomInDown">Search Free E-Books</h3>
 					<input  class="bg-dark" type="text" id="searchInput"><button class="btn btn-dark" id="searchBtn" onclick="searchBooks()">search</button>
 				</div>
 			</div>
 		</div>
 			<!-- end search area -->
-		<div class="container-fluid bg" id="results">
+		<div class="container-fluid" id="results">
 			<div class="row">
 			<!-- start display results -->
 				<div class="row" id="searchResults">
