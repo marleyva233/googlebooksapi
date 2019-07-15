@@ -6,7 +6,7 @@
 */
 
 /*[0]GENERAL*/
-body{
+body {
 	font-family: 'Questrial', sans-serif;
 	color:#fff;
 	background-image:url("https://southsidetyler.us/wp-content/uploads/2015/04/old-books.jpg");
@@ -16,25 +16,27 @@ body{
 	background-repeat: repeat-y;
 	padding: 0;
 }
-h3, h4, h6{
+h3, 
+h4, 
+h6 {
 	font-family: 'Corben', cursive;
 	color:#000;
 	text-align: center;
 }
-.bg{
+.bg {
 	background-color: rgba(255, 255, 255, 0.7);
 }
-h3{
+h3 {
 	font-weight: bold;
 }
-a{
+a {
 	color:#000;
 }
-a:hover{
+a:hover {
 	color:#000;
 	text-decoration: underline;
 }
-input{
+input {
 	color:#fff;
 	padding: 1%;
 	margin:1%;
